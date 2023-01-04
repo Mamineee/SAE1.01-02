@@ -1,0 +1,14 @@
+{
+  "textureAtlas": {
+    "texture": "..\\sprite MC\\free-3-character-sprite-sheets-pixel-art\\2 GraveRobber\\MC_Idle_Left.png",
+    "regionWidth": 48,
+    "regionHeight": 48
+  },
+  "cycles": {
+    "mC_Idle_Left": {
+      "frames": [3,2,1,0],
+      "isLooping": false,
+      "frameDuration": 0.2
+    }
+  }
+}

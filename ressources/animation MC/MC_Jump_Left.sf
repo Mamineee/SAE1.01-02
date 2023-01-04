@@ -1,0 +1,14 @@
+{
+  "textureAtlas": {
+    "texture": "..\\sprite MC\\free-3-character-sprite-sheets-pixel-art\\2 GraveRobber\\GraveRobber_jump_left.png",
+    "regionWidth": 48,
+    "regionHeight": 48
+  },
+  "cycles": {
+    "mC_Jump_Left": {
+      "frames": [5,4,3,2,1,0],
+      "isLooping": false,
+      "frameDuration": 0.22
+    }
+  }
+}
