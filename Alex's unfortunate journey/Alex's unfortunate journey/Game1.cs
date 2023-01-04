@@ -34,7 +34,7 @@ namespace Alex_s_unfortunate_journey
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             //map
-            _tiledMap = Content.Load<TiledMap>("niveauDepart");
+            _tiledMap = Content.Load<TiledMap>("Zone de depart");
             _tiledMapRenderer = new TiledMapRenderer(GraphicsDevice, _tiledMap);
             // TODO: use this.Content to load your game content here
         }
