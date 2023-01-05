@@ -69,8 +69,8 @@ namespace Alex_s_unfortunate_journey
             _tiledMap = Content.Load<TiledMap>("niveauDepart2");
             _tiledMapRenderer = new TiledMapRenderer(GraphicsDevice, _tiledMap);
             //perso
-            SpriteSheet spriteSheetIdle = Content.Load<SpriteSheet>("MC_idle_Right.sf", new JsonContentLoader());
-            SpriteSheet spriteSheetWalk = Content.Load<SpriteSheet>("MC_Walk_Right.sf", new JsonContentLoader());
+            SpriteSheet spriteSheetIdle = Content.Load<SpriteSheet>("GraveRobber_Idle.sf", new JsonContentLoader());
+            SpriteSheet spriteSheetWalk = Content.Load<SpriteSheet>("GraveRobber_Walk.sf", new JsonContentLoader());
             _persoIdle = new AnimatedSprite(spriteSheetIdle);
             _persoWalk = new AnimatedSprite(spriteSheetWalk);
             // TODO: use this.Content to load your game content here
@@ -87,13 +87,13 @@ namespace Alex_s_unfortunate_journey
             //map
             _tiledMapRenderer.Update(gameTime);
             //perso
-            _persoIdle.Play("mC_Idle_Right");
+            _persoIdle.Play("idle");
             _persoIdle.Update(deltaTime);
             if (_keyboardState.IsKeyDown(Keys.D))
             {
                 ushort tx = (ushort)(_positionPerso.X / _tiledMap.TileWidth + 1);
                 ushort ty = (ushort)(_positionPerso.Y / _tiledMap.TileHeight + 1);
-                _persoIdle.Play("mC_Walk_Right");
+                _persoWalk.Play("Walk_Right");
                 _positionPerso.X += walkSpeed;
                 //if (IsCollision(tx, ty))
                 //    _positionPerso.X -= walkSpeed;
