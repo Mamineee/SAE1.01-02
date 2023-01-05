@@ -30,6 +30,79 @@
 /processorParam:TextureFormat=Color
 /build:GraveRobber.png
 
+#begin GraveRobber_death.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:GraveRobber_death.png
+
+#begin GraveRobber_death.sf
+/importer:
+/processor:
+/build:GraveRobber_death.sf
+
+#begin GraveRobber_idle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:GraveRobber_idle.png
+
+#begin GraveRobber_idle.sf
+/importer:
+/processor:
+/build:GraveRobber_idle.sf
+
+#begin GraveRobber_idle_Right_2.sf
+/importer:
+/processor:
+/build:GraveRobber_idle_Right_2.sf
+
+#begin GraveRobber_jump.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:GraveRobber_jump.png
+
+#begin GraveRobber_jump.sf
+/importer:
+/processor:
+/build:GraveRobber_jump.sf
+
+#begin GraveRobber_jump_left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:GraveRobber_jump_left.png
+
+#begin GraveRobber_jump_left.sf
+/importer:
+/processor:
+/build:GraveRobber_jump_left.sf
+
 #begin GraveRobber_walk.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -43,14 +116,74 @@
 /build:GraveRobber_walk.png
 
 #begin GraveRobber_walk.sf
-/importer:SpriteFactoryContentImporter
-/processor:SpriteFactoryContentProcessor
-/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
+/importer:
+/processor:
 /build:GraveRobber_walk.sf
 
+#begin MC_Death_Left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:MC_Death_Left.png
+
+#begin MC_Death_Left.sf
+/importer:
+/processor:
+/build:MC_Death_Left.sf
+
+#begin MC_Idle_Left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:MC_Idle_Left.png
+
+#begin MC_Idle_Left.sf
+/importer:
+/processor:
+/build:MC_Idle_Left.sf
+
+#begin MC_idle_Right.sf
+/importer:
+/processor:
+/build:MC_idle_Right.sf
+
+#begin MC_walk_left_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:MC_walk_left_2.png
+
+#begin MC_walk_left_2.sf
+/importer:
+/processor:
+/build:MC_walk_left_2.sf
+
+#begin MC_Walk_Right.sf
+/importer:
+/processor:
+/build:MC_Walk_Right.sf
+
 #begin niveauDepart2.tmx
-/importer:TiledMapImporter
-/processor:TiledMapProcessor
+/importer:
+/processor:
 /build:niveauDepart2.tmx
 
 #begin zone de depart_scaled_12x_pngcrushed.png

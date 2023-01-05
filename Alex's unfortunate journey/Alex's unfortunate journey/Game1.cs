@@ -69,8 +69,8 @@ namespace Alex_s_unfortunate_journey
             _tiledMap = Content.Load<TiledMap>("niveauDepart2");
             _tiledMapRenderer = new TiledMapRenderer(GraphicsDevice, _tiledMap);
             //perso
-            SpriteSheet spriteSheetIdle = Content.Load<SpriteSheet>("GraveRobber_Idle.sf", new JsonContentLoader());
-            SpriteSheet spriteSheetWalk = Content.Load<SpriteSheet>("GraveRobber_Walk.sf", new JsonContentLoader());
+            SpriteSheet spriteSheetIdle = Content.Load<SpriteSheet>("GraveRobber_idle.sf", new JsonContentLoader());
+            SpriteSheet spriteSheetWalk = Content.Load<SpriteSheet>("GraveRobber_walk.sf", new JsonContentLoader());
             _persoIdle = new AnimatedSprite(spriteSheetIdle);
             _persoWalk = new AnimatedSprite(spriteSheetWalk);
             // TODO: use this.Content to load your game content here
