@@ -26,6 +26,12 @@ namespace Alex_s_unfortunate_journey
             // TODO: Add your initialization logic here
             //map
             GraphicsDevice.BlendState = BlendState.AlphaBlend;
+            _graphics.PreferredBackBufferWidth = 1200;
+            _graphics.PreferredBackBufferHeight = 768;
+           _graphics.ApplyChanges();
+
+
+
 
             base.Initialize();
         }
@@ -34,7 +40,7 @@ namespace Alex_s_unfortunate_journey
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             //map
-            _tiledMap = Content.Load<TiledMap>("niveauDepart1");
+            _tiledMap = Content.Load<TiledMap>("niveauDepart2");
             _tiledMapRenderer = new TiledMapRenderer(GraphicsDevice, _tiledMap);
             // TODO: use this.Content to load your game content here
         }
