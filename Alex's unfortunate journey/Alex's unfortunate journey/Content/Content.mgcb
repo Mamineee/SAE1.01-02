@@ -18,30 +18,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../../ressources/sprite MC grand/GraveRobber_idle.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../ressources/sprite MC grand/GraveRobber_idle.png;GraveRobber_idle.png
-
-#begin ../../../ressources/sprite MC grand/GraveRobber_walk.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../ressources/sprite MC grand/GraveRobber_walk.png;GraveRobber_walk.png
-
 #begin GraveRobber.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -54,7 +30,7 @@
 /processorParam:TextureFormat=Color
 /build:GraveRobber.png
 
-#begin GraveRobber_death.png
+#begin GraveRobber_walk.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -64,115 +40,13 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:GraveRobber_death.png
-
-#begin GraveRobber_death.sf
-/importer:SpriteFactoryContentImporter
-/processor:SpriteFactoryContentProcessor
-/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
-/build:GraveRobber_death.sf
-
-#begin GraveRobber_idle.sf
-/importer:SpriteFactoryContentImporter
-/processor:SpriteFactoryContentProcessor
-/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
-/build:GraveRobber_idle.sf
-
-#begin GraveRobber_jump.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:GraveRobber_jump.png
-
-#begin GraveRobber_jump.sf
-/importer:SpriteFactoryContentImporter
-/processor:SpriteFactoryContentProcessor
-/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
-/build:GraveRobber_jump.sf
-
-#begin GraveRobber_jump_left.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:GraveRobber_jump_left.png
-
-#begin GraveRobber_jump_left.sf
-/importer:SpriteFactoryContentImporter
-/processor:SpriteFactoryContentProcessor
-/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
-/build:GraveRobber_jump_left.sf
+/build:GraveRobber_walk.png
 
 #begin GraveRobber_walk.sf
 /importer:SpriteFactoryContentImporter
 /processor:SpriteFactoryContentProcessor
 /processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:GraveRobber_walk.sf
-
-#begin MC_Death_Left.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:MC_Death_Left.png
-
-#begin MC_Death_Left.sf
-/importer:SpriteFactoryContentImporter
-/processor:SpriteFactoryContentProcessor
-/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
-/build:MC_Death_Left.sf
-
-#begin MC_Idle_Left.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:MC_Idle_Left.png
-
-#begin MC_Idle_Left.sf
-/importer:SpriteFactoryContentImporter
-/processor:SpriteFactoryContentProcessor
-/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
-/build:MC_Idle_Left.sf
-
-#begin MC_walk_left_2.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:MC_walk_left_2.png
-
-#begin MC_walk_left_2.sf
-/importer:SpriteFactoryContentImporter
-/processor:SpriteFactoryContentProcessor
-/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
-/build:MC_walk_left_2.sf
 
 #begin niveauDepart2.tmx
 /importer:TiledMapImporter
