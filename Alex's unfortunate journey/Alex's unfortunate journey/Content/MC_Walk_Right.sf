@@ -1,0 +1,14 @@
+{
+  "textureAtlas": {
+    "texture": "..\\sprite MC\\free-3-character-sprite-sheets-pixel-art\\2 GraveRobber\\GraveRobber_walk.png",
+    "regionWidth": 48,
+    "regionHeight": 48
+  },
+  "cycles": {
+    "mC_Walk_Right": {
+      "frames": [0,1,2,3,4,5],
+      "isLooping": false,
+      "frameDuration": 0.1
+    }
+  }
+}
