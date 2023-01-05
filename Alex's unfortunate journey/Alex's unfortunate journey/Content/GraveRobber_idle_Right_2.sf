@@ -1,0 +1,14 @@
+{
+  "textureAtlas": {
+    "texture": "..\\sprite MC\\GraveRobber_idle.png",
+    "regionWidth": 48,
+    "regionHeight": 48
+  },
+  "cycles": {
+    "animation0": {
+      "frames": [0,1,2,3],
+      "isLooping": false,
+      "frameDuration": 0.2
+    }
+  }
+}
