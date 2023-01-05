@@ -18,12 +18,12 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin niveauDepart1.tmx
+#begin niveauDepart2.tmx
 /importer:TiledMapImporter
 /processor:TiledMapProcessor
-/build:niveauDepart1.tmx
+/build:niveauDepart2.tmx
 
-#begin zone de depart.png
+#begin zone de depart_scaled_12x_pngcrushed.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -33,5 +33,5 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:zone de depart.png
+/build:zone de depart_scaled_12x_pngcrushed.png
 
