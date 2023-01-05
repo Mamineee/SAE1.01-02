@@ -18,12 +18,10 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin niveauDepart.tmx
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:niveauDepart.tmx
+#begin niveauDepart1.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:niveauDepart1.tmx
 
 #begin zone de depart.png
 /importer:TextureImporter
