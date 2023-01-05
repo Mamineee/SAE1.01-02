@@ -43,8 +43,9 @@
 /build:GraveRobber_death.png
 
 #begin GraveRobber_death.sf
-/importer:
-/processor:
+/importer:SpriteFactoryContentImporter
+/processor:SpriteFactoryContentProcessor
+/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:GraveRobber_death.sf
 
 #begin GraveRobber_idle.png
@@ -60,14 +61,10 @@
 /build:GraveRobber_idle.png
 
 #begin GraveRobber_idle.sf
-/importer:
-/processor:
+/importer:SpriteFactoryContentImporter
+/processor:SpriteFactoryContentProcessor
+/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:GraveRobber_idle.sf
-
-#begin GraveRobber_idle_Right_2.sf
-/importer:
-/processor:
-/build:GraveRobber_idle_Right_2.sf
 
 #begin GraveRobber_jump.png
 /importer:TextureImporter
@@ -82,8 +79,9 @@
 /build:GraveRobber_jump.png
 
 #begin GraveRobber_jump.sf
-/importer:
-/processor:
+/importer:SpriteFactoryContentImporter
+/processor:SpriteFactoryContentProcessor
+/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:GraveRobber_jump.sf
 
 #begin GraveRobber_jump_left.png
@@ -99,8 +97,9 @@
 /build:GraveRobber_jump_left.png
 
 #begin GraveRobber_jump_left.sf
-/importer:
-/processor:
+/importer:SpriteFactoryContentImporter
+/processor:SpriteFactoryContentProcessor
+/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:GraveRobber_jump_left.sf
 
 #begin GraveRobber_walk.png
@@ -116,8 +115,9 @@
 /build:GraveRobber_walk.png
 
 #begin GraveRobber_walk.sf
-/importer:
-/processor:
+/importer:SpriteFactoryContentImporter
+/processor:SpriteFactoryContentProcessor
+/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:GraveRobber_walk.sf
 
 #begin MC_Death_Left.png
@@ -133,8 +133,9 @@
 /build:MC_Death_Left.png
 
 #begin MC_Death_Left.sf
-/importer:
-/processor:
+/importer:SpriteFactoryContentImporter
+/processor:SpriteFactoryContentProcessor
+/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:MC_Death_Left.sf
 
 #begin MC_Idle_Left.png
@@ -150,14 +151,10 @@
 /build:MC_Idle_Left.png
 
 #begin MC_Idle_Left.sf
-/importer:
-/processor:
+/importer:SpriteFactoryContentImporter
+/processor:SpriteFactoryContentProcessor
+/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:MC_Idle_Left.sf
-
-#begin MC_idle_Right.sf
-/importer:
-/processor:
-/build:MC_idle_Right.sf
 
 #begin MC_walk_left_2.png
 /importer:TextureImporter
@@ -172,18 +169,14 @@
 /build:MC_walk_left_2.png
 
 #begin MC_walk_left_2.sf
-/importer:
-/processor:
+/importer:SpriteFactoryContentImporter
+/processor:SpriteFactoryContentProcessor
+/processorParam:ContentType=MonoGame.Extended MonoGame.Extended.Animations.SpriteFactory.SpriteFactoryFileReader, MonoGame.Extended.Animations
 /build:MC_walk_left_2.sf
 
-#begin MC_Walk_Right.sf
-/importer:
-/processor:
-/build:MC_Walk_Right.sf
-
 #begin niveauDepart2.tmx
-/importer:
-/processor:
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
 /build:niveauDepart2.tmx
 
 #begin zone de depart_scaled_12x_pngcrushed.png

@@ -32,7 +32,7 @@ namespace Alex_s_unfortunate_journey.User_Interface
             // si fleche droite
             if (_keyboardState.IsKeyDown(Keys.Right) && !(_keyboardState.IsKeyDown(Keys.Left)))
                 _sensPlayer = 1;
-            _positionPlayer.X += _sensPlayer * _vitessePlayer * deltaTime;
+            //_positionPlayer.X += _sensPlayer * _vitessePlayer * deltaTime;
         }
 
     }
