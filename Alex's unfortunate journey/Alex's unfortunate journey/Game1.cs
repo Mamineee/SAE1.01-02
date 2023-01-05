@@ -67,15 +67,7 @@ namespace Alex_s_unfortunate_journey
             _persoIdle.Play("mC_Idle_Right");
             _persoIdle.Update(deltaTime);
 
-            if (_keyboardState.IsKeyDown(Keys.D))
-            {
-                ushort tx = (ushort)(_positionPerso.X / _tiledMap.TileWidth + 1);
-                ushort ty = (ushort)(_positionPerso.Y / _tiledMap.TileHeight + 1);
-                _animation = "walkEast";
-                _positionPerso.X += walkSpeed;
-                if (IsCollision(tx, ty))
-                    _positionPerso.X -= walkSpeed;
-            }
+            
 
             base.Update(gameTime);
         }
